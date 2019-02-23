@@ -66,6 +66,10 @@ dependencies {
     def work_version = "1.0.0-rc01"
     implementation "android.arch.work:work-runtime:$work_version"
 
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0"
+
     androidTestImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test:rules:1.1.1'
